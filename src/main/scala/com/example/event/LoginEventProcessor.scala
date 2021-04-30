@@ -1,8 +1,8 @@
-package com.towncrier.event
+package com.example.event
 
-import com.towncrier.auth.AuthenticatedRequest
-import com.towncrier.http.LoginRequestBody
-import com.towncrier.repositories.UserRepository
+import com.example.auth.AuthenticatedRequest
+import com.example.http.LoginRequestBody
+import com.example.repositories.UserRepository
 import io.circe.generic.auto._
 import io.circe.parser._
 

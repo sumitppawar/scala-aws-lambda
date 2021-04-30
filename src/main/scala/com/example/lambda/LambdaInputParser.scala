@@ -1,4 +1,4 @@
-package com.towncrier.lambda
+package com.example.lambda
 
 import io.circe._
 import io.circe.parser._

@@ -1,6 +1,6 @@
-package com.towncrier.repositories.slick
+package com.example.repositories.slick
 
-import com.towncrier.repositories.Things
+import com.example.repositories.Things
 import slick.jdbc.MySQLProfile.api._
 
 class ThingsTable(tag: Tag) extends Table[Things](tag, _tableName = "things") {

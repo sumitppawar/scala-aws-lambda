@@ -1,7 +1,7 @@
-package com.towncrier.repositories.slick
+package com.example.repositories.slick
 
-import com.towncrier.repositories.slick.ThingsTable._
-import com.towncrier.repositories.{Things, ThingsRepository}
+import com.example.repositories.slick.ThingsTable._
+import com.example.repositories.{Things, ThingsRepository}
 import slick.jdbc.JdbcBackend.Database
 import slick.jdbc.MySQLProfile.api._
 

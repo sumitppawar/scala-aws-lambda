@@ -4,7 +4,7 @@ javacOptions ++= Seq("-source", "1.8", "-target", "1.8", "-Xlint")
 
 lazy val root = (project in file(".")).
   settings(
-    name := "towncrier",
+    name := "scala-aws-lambda",
     version := "1.0",
     scalaVersion := "2.13.5",
     retrieveManaged := true,

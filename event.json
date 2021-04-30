@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "routeKey": "ANY /towncrier",
-  "rawPath": "/v1/towncrier",
+  "routeKey": "ANY /scala-aws-lambda",
+  "rawPath": "/v1/scala-aws-lambda",
   "rawQueryString": "",
   "headers": {
     "accept": "*/*",
@@ -23,13 +23,13 @@
     "domainPrefix": "m86dzmpamc",
     "http": {
       "method": "POST",
-      "path": "/v1/towncrier",
+      "path": "/v1/scala-aws-lambda",
       "protocol": "HTTP/1.1",
       "sourceIp": "116.86.174.133",
       "userAgent": "PostmanRuntime/7.26.10"
     },
     "requestId": "bo_EfjohhcwEJ5g=",
-    "routeKey": "ANY /towncrier",
+    "routeKey": "ANY /scala-aws-lambda",
     "stage": "v1",
     "time": "04/Mar/2021:02:26:23 +0000",
     "timeEpoch": 1614824783830

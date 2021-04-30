@@ -1,7 +1,7 @@
-package com.towncrier.event
+package com.example.event
 
-import com.towncrier.auth.AuthenticatedRequest
-import com.towncrier.repositories.slick.{ThingsRepositoryImpl, UserRepositoryImpl}
+import com.example.auth.AuthenticatedRequest
+import com.example.repositories.slick.{ThingsRepositoryImpl, UserRepositoryImpl}
 import slick.jdbc.JdbcBackend.Database
 
 import scala.concurrent.Future

@@ -1,4 +1,4 @@
-package com.towncrier.lambda
+package com.example.lambda
 
 case class Request(
                     body: String,

@@ -1,4 +1,4 @@
-package com.towncrier.lambda
+package com.example.lambda
 
 import io.circe.generic.auto._
 import io.circe.syntax._

@@ -1,4 +1,4 @@
-package com.towncrier.auth
+package com.example.auth
 
 case class AuthenticatedRequest(
                                  user: User,

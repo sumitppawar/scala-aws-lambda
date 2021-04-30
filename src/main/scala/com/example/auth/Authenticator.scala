@@ -1,7 +1,7 @@
-package com.towncrier.auth
+package com.example.auth
 
-import com.towncrier.lambda.Request
-import com.towncrier.repositories.UserRepository
+import com.example.lambda.Request
+import com.example.repositories.UserRepository
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future

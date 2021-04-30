@@ -1,10 +1,10 @@
-package com.towncrier
+package com.example
 
 import com.amazonaws.services.lambda.runtime.Context
-import com.towncrier.auth.InMemoryAuthenticator
-import com.towncrier.event.EventProcessor
-import com.towncrier.lambda.{AwsHttpApiInputParser, AwsHttpApiResponse}
-import com.towncrier.repositories.slick.UserRepositoryImpl
+import com.example.auth.InMemoryAuthenticator
+import com.example.event.EventProcessor
+import com.example.lambda.{AwsHttpApiInputParser, AwsHttpApiResponse}
+import com.example.repositories.slick.UserRepositoryImpl
 import slick.jdbc.JdbcBackend.Database
 
 import java.io.{InputStream, OutputStream}
@@ -20,7 +20,7 @@ class Application {
   val inputParser = new AwsHttpApiInputParser()
   val responseWriter = new AwsHttpApiResponse()
   val authenticator = new InMemoryAuthenticator(new UserRepositoryImpl(db))
-  val logger = Logger.getLogger("towncrier")
+  val logger = Logger.getLogger("scala-aws-lambda")
 
   def start(in: InputStream, out: OutputStream, context: Context): Unit = {
 

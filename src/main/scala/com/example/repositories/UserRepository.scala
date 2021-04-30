@@ -1,4 +1,4 @@
-package com.towncrier.repositories
+package com.example.repositories
 
 import scala.concurrent.Future
 

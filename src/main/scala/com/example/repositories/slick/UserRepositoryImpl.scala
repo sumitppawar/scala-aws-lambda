@@ -1,7 +1,7 @@
-package com.towncrier.repositories.slick
+package com.example.repositories.slick
 
-import com.towncrier.repositories.slick.UsersTable.users
-import com.towncrier.repositories.{User, UserRepository}
+import com.example.repositories.slick.UsersTable.users
+import com.example.repositories.{User, UserRepository}
 
 import scala.concurrent.Future
 import slick.jdbc.JdbcBackend.Database

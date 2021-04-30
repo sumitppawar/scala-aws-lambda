@@ -1,4 +1,4 @@
-package com.towncrier.http
+package com.example.http
 
 case class LoginRequestBody(
                              mobile: String,

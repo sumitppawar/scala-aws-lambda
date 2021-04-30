@@ -8,14 +8,14 @@ Resources:
   TownCrierHttp:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: com.towncrier.Application::start
+      Handler: com.example.Application::start
       Runtime: java8
       Timeout: 60
-      CodeUri: target/scala-2.13/towncrier-assembly-1.0.jar
+      CodeUri: target/scala-2.13/scala-aws-lambda-1.0.jar
       MemorySize: 512
       Events:
         Hello:
           Type: Api
           Properties:
-            Path: /towncrier
+            Path: /scala-aws-lambda
             Method: Any

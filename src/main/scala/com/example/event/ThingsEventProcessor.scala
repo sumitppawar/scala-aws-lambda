@@ -1,7 +1,7 @@
-package com.towncrier.event
+package com.example.event
 
-import com.towncrier.auth.AuthenticatedRequest
-import com.towncrier.repositories.ThingsRepository
+import com.example.auth.AuthenticatedRequest
+import com.example.repositories.ThingsRepository
 import io.circe.Json
 import io.circe.generic.auto._
 import io.circe.parser.parse
