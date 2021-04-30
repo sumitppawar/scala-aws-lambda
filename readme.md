@@ -8,7 +8,7 @@ How to build ?
 How it works ?
 
 `AWS HTTP <-> AWS Lambda <-> RDS`
- `com.towncrier.Application` class is the entry point.
+ `com.example.Application` class is the entry point.
 
 `application.conf` contains related configuration
 
