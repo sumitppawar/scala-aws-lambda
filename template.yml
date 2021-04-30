@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Deescription: |
+  Running town crier locally
+
+Resources:
+  TownCrierHttp:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: com.towncrier.Application::start
+      Runtime: java8
+      Timeout: 60
+      CodeUri: target/scala-2.13/towncrier-assembly-1.0.jar
+      MemorySize: 512
+      Events:
+        Hello:
+          Type: Api
+          Properties:
+            Path: /towncrier
+            Method: Any

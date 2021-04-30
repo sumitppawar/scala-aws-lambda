@@ -1,0 +1,39 @@
+{
+  "version": "2.0",
+  "routeKey": "ANY /towncrier",
+  "rawPath": "/v1/towncrier",
+  "rawQueryString": "",
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate, br",
+    "content-length": "80",
+    "content-type": "application/json",
+    "host": "m86dzmpamc.execute-api.ap-south-1.amazonaws.com",
+    "postman-token": "4a60c6dd-3075-4cef-a45d-922533a0765b",
+    "user-agent": "PostmanRuntime/7.26.10",
+    "x-amzn-trace-id": "Root=1-6040454f-06be6b8e644b470301a0c4e1",
+    "x-forwarded-for": "116.86.174.133",
+    "x-forwarded-port": "443",
+    "x-forwarded-proto": "https"
+  },
+  "requestContext": {
+    "accountId": "867952760365",
+    "apiId": "m86dzmpamc",
+    "domainName": "m86dzmpamc.execute-api.ap-south-1.amazonaws.com",
+    "domainPrefix": "m86dzmpamc",
+    "http": {
+      "method": "POST",
+      "path": "/v1/towncrier",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "116.86.174.133",
+      "userAgent": "PostmanRuntime/7.26.10"
+    },
+    "requestId": "bo_EfjohhcwEJ5g=",
+    "routeKey": "ANY /towncrier",
+    "stage": "v1",
+    "time": "04/Mar/2021:02:26:23 +0000",
+    "timeEpoch": 1614824783830
+  },
+  "body": "eyJkcm9wIjowLCAibGltaXQiOjEwLCAiYXV0aG9yaXphdGlvbiI6ICJrbHRnb2l0NGJodjRrcixtcmJmdXl2aiIsICJldmVudFR5cGUiOiJ0aGluZ3MifQo=",
+  "isBase64Encoded": false
+}
